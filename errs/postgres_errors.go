@@ -45,7 +45,7 @@ const (
 	ErrAuthorizationHeaderNotFound = "la cabecera con el token de utilización no fue encontrado, la operación fue rechazada"
 	ErrInvalidToken                = "el token que está utilizando no es válido o está caducado, contáctese con el equipo técnico"
 	ErrSigningTokenString          = "el token que está utilizando no es genuino, contáctese con el equipo técnico"
-	ErrDatabase                    = "la operacion no se pudo realizar de bebido a algún problema, contáctese con el equipo técnico"
+	ErrDatabase                    = "la operacion no se pudo realizar bebido a algún problema, contáctese con el equipo técnico"
 
 	ErrRecordNotFaund        = "el registro buscado no fue encontrado"
 	ErrCreating              = "no se puedo realizar la operacion de registro"
