@@ -2,7 +2,7 @@
 Es una pequeña librería que utilizó para manejar las respuestas de errores de PostgreSQL y las respuestas HTTP.
 
 ```go
-// "github.com/user0608/goones/errs"
+// "github.com/CarlosCubas16/goones/errs"
 func (*cliente) EliminarCliente(ctx context.Context, doc string) error {
 	tx := database.Conn(ctx)
 	rs := tx.Delete(&models.Cliente{}, "doc=?", doc)
@@ -13,7 +13,7 @@ func (*cliente) EliminarCliente(ctx context.Context, doc string) error {
 }
 ```
 ```go
-    // "github.com/user0608/goones/answer"
+    // "github.com/CarlosCubas16/goones/answer"
     func EliminarClienteEmpresa(service usecases.ClienteUsecase) echo.HandlerFunc {
         return func(c echo.Context) error {
             clienteDoc := c.Param("cliente_doc")
@@ -25,7 +25,7 @@ func (*cliente) EliminarCliente(ctx context.Context, doc string) error {
     }
 ```
 ```go
-    // "github.com/user0608/goones/answer"
+    // "github.com/CarlosCubas16/goones/answer"
     func FindClientesEmpresa(service usecases.ClienteUsecase) echo.HandlerFunc {
         return func(c echo.Context) error {
             clientes, err := service.FindClientesEmpresa(c.Request().Context())

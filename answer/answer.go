@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/user0608/goones/errs"
+	"github.com/CarlosCubas16/goones/errs"
 )
 
 type Target interface {

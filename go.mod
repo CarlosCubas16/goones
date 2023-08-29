@@ -1,4 +1,4 @@
-module github.com/user0608/goones
+module github.com/CarlosCubas16/goones
 
 go 1.19
 
